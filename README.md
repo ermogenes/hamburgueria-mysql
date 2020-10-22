@@ -10,7 +10,7 @@ Usando o MySQL Workbench, selecione _File_, _Run Script SQL..._.
 
 ![](assets/run-01.png)
 
-Selecione o arquivo contido em `scripts/hamburgueria.sql`.
+Selecione o arquivo contido em [`scripts/hamburgueria.sql`](scripts/hamburgueria.sql).
 
 Selecione o conjunto de caracteres `utf8` e execute clicando em _Run_.
 
