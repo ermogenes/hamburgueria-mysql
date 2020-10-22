@@ -20,7 +20,7 @@ _Se preferir, você pode usar outro cliente, como o DBeaver, por exemplo._
 
 ## Modelo de dados
 
-[Arquivo do MySQL Workbench: `model/hamburgueria.mwb`](model/hamburgueria.mwb)
+Arquivo do MySQL Workbench: [`model/hamburgueria.mwb`](model/hamburgueria.mwb)
 
 **Diagrama Entidade-Relacionamento**
 
