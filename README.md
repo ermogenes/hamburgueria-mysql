@@ -24,7 +24,7 @@ Arquivo do MySQL Workbench: [`model/hamburgueria.mwb`](model/hamburgueria.mwb)
 
 **Diagrama Entidade-Relacionamento**
 
-![](assets/hamburgueria.svg)
+![](assets/hamburgueria.png)
 
 ## Listagem dos burguers e seus ingredientes.
 
