@@ -26,7 +26,9 @@ Arquivo do MySQL Workbench: [`model/hamburgueria.mwb`](model/hamburgueria.mwb)
 
 ![](assets/hamburgueria.png)
 
-## Listagem dos burguers e seus ingredientes.
+## Dados 
+
+Listagem dos burguers e seus ingredientes:
 
 nome|preco|quantidade|unidade|ingrediente|tipo
 ---|---|---|---|---|---
