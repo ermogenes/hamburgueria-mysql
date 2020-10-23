@@ -40,7 +40,7 @@ CREATE TABLE IF NOT EXISTS `hamburgueria`.`ingrediente` (
   `nome` VARCHAR(50) NOT NULL,
   `tipo_ingrediente_id` INT NOT NULL,
   PRIMARY KEY (`id`),
-  INDEX `fk_ingrediente_tipo_ingrediente1_idx` (`tipo_ingrediente_id` ASC) VISIBLE,
+  INDEX `fk_ingrediente_tipo_ingrediente1_idx` (`tipo_ingrediente_id` ASC) /*VISIBLE*/,
   CONSTRAINT `fk_ingrediente_tipo_ingrediente1`
     FOREIGN KEY (`tipo_ingrediente_id`)
     REFERENCES `hamburgueria`.`tipo_ingrediente` (`id`)
@@ -85,8 +85,8 @@ CREATE TABLE IF NOT EXISTS `hamburgueria`.`burguer_ingrediente` (
   `quantidade` INT NOT NULL,
   `unidade_id` VARCHAR(5) NOT NULL,
   PRIMARY KEY (`burguer_id`, `ingrediente_id`),
-  INDEX `fk_burguer_ingrediente_ingrediente1_idx` (`ingrediente_id` ASC) VISIBLE,
-  INDEX `fk_burguer_ingrediente_unidade1_idx` (`unidade_id` ASC) VISIBLE,
+  INDEX `fk_burguer_ingrediente_ingrediente1_idx` (`ingrediente_id` ASC) /*VISIBLE*/,
+  INDEX `fk_burguer_ingrediente_unidade1_idx` (`unidade_id` ASC) /*VISIBLE*/,
   CONSTRAINT `fk_burguer_ingrediente_burguer`
     FOREIGN KEY (`burguer_id`)
     REFERENCES `hamburgueria`.`burguer` (`id`)
